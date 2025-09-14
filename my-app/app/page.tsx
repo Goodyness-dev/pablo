@@ -2,11 +2,11 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import gsap from "gsap";
-import About from "./About";
-import Footer from "./Footer";
-import Core from "./Core";
-import Roadmap from "./Roadmap";
-import Tokenomics from "./Tokenomics";
+import About from "./Section/About";
+import Footer from "./Section/Footer";
+import Core from "./Section/Core";
+import Roadmap from "./Section/Roadmap";
+import Tokenomics from "./Section/Tokenomics";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger)
 export default function Home() {
